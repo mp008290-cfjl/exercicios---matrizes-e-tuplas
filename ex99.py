@@ -27,3 +27,17 @@ def main():
       print(f"• {nome} — {idade} anos")
   else:
     print("Nenhuma pessoa com menos de 18 anos cadastrada.")
+
+print("\n" + "=" * 40)
+print("        GRUPO 2: 18 ANOS OU MAIS")
+print("=" * 40)
+  if maiores_de_18:
+    for nome, idade in maiores_de_18:
+      print(f"• {nome} — {idade} anos")
+  else:
+    print("Nenhuma pessoa com 18 anos ou mais cadastrada.")
+  print("=" * 40)
+
+
+  if __name__ == "__main__":
+    main()
