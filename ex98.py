@@ -33,3 +33,7 @@ def main():
     print(f"[ {linha_formatada} ]")
 
   print("========================================")
+
+
+if __name__ == "__main__":
+  main()
