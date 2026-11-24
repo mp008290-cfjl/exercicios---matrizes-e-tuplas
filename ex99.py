@@ -18,3 +18,12 @@ def main():
       menores_de_18.append((nome, idade))
     else:
       maiores_de_18.append((nome, idade))
+
+  print("\n" + "=" * 40)
+  print("         GRUPO 1: MENORES DE 18 ANOS")
+  print("=" * 40)
+  if menores_de_18:
+    for nome, idade in menores_de_18:
+      print(f"• {nome} — {idade} anos")
+  else:
+    print("Nenhuma pessoa com menos de 18 anos cadastrada.")
