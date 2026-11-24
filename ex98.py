@@ -28,3 +28,8 @@ def main():
   print("========================================")
 
   for linha in matriz_soma:
+ 
+    linha_formatada = " | ".join(f"{val:5}" for val in linha)
+    print(f"[ {linha_formatada} ]")
+
+  print("========================================")
