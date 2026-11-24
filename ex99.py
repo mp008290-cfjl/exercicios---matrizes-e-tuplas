@@ -6,3 +6,6 @@ def main():
     print(f"\n--- Pessoa {i} de 10 ---")
     nome = input("Digite o nome: ")
     idade = int(input("Digite a idade: "))
+
+    pessoa_tupla = (nome, idade)
+    pessoas.append(pessoa_tupla)
