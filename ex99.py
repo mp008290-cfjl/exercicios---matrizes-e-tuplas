@@ -9,3 +9,12 @@ def main():
 
     pessoa_tupla = (nome, idade)
     pessoas.append(pessoa_tupla)
+
+  menores_de_18 = []
+  maiores_de_18 = []
+
+  for nome, idade in pessoas:
+    if idade < 18:
+      menores_de_18.append((nome, idade))
+    else:
+      maiores_de_18.append((nome, idade))
